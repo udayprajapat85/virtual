@@ -1,0 +1,157 @@
+.footer-background {
+    margin-top: 100px;
+    padding: 100px 0;
+    background: var(--black-sads);
+    color: var(--white);
+
+    .footer-text {
+        display: flex;
+        justify-content: space-between;
+
+        .first-panel {
+            width: 20%;
+
+            .footer-logo {
+                width: 100%;
+                background: var(--white);
+                padding: 10px;
+
+                a {
+                    img {
+                        width: 100%;
+                        height:50px;
+                    }
+                }
+            }
+
+            p {
+                padding: 10px 0 80px;
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                li {
+                   
+                    a {
+                        color: var(--white);
+
+                        .footer-social-icon {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .second-panel {
+            width: 25%;
+
+            .footer-select {
+                select {
+                    padding: 15px;
+                    border-radius: 5px;
+                    outline: none;
+                    border: 2px solid var(--gray-border);
+                    width: 100%;
+                    font-size: 16px;
+                    background: none;
+                    color: var(--white);
+
+                    option {
+                        color: var(--black);
+                    }
+                }
+            }
+
+            ul {
+                margin-top: 30px;
+
+                li {
+                    padding-bottom: 15px;
+
+                    a {
+                        color: var(--white);
+                        font-size: 15px;
+                    }
+                }
+            }
+
+
+        }
+
+
+        .third-panel {
+            width: 12%;
+            margin-top: 85px;
+
+
+            ul {
+
+                li {
+                    padding-bottom: 15px;
+
+                    a {
+                        color: var(--white);
+                        font-size: 15px;
+                    }
+                }
+            }
+
+
+        }
+
+        .fourth-panel {
+            width: 28%;
+            margin-top: 85px;
+
+
+            ul {
+                li {
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 20px;
+
+                .footer-icon{
+                    padding-right: 20px;
+                    i{
+                        font-size: 25px;
+                    }
+                }
+
+                .footer-icon-text{
+                    line-height: 25px;
+                }
+                }
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+}

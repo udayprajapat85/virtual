@@ -1,0 +1,108 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+ol li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1050px;
+  margin: auto;
+}
+
+/*Font Size's*/
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray-border:#666666;
+}
+
+/*Fonts family Roboto*/
+/*Fonts family Rupee */
+/*Fonts family Lato */
+.slider {
+  background-image: url(../image/slider-img.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.slider .slider-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.slider .header-backgroung {
+  border-bottom: 1px solid var(--gray-border);
+  padding: 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.slider .header-backgroung .logo {
+  width: 200px;
+}
+.slider .header-backgroung .logo a img {
+  width: 100%;
+}
+.slider .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.slider .menu ul li {
+  padding: 0 20px;
+}
+.slider .menu ul li:last-child {
+  padding-right: 0;
+}
+.slider .menu ul li a {
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 600;
+}
+.slider .slider-text {
+  text-align: center;
+  color: var(--white);
+}
+.slider .slider-text h1 {
+  font-size: 36px;
+}
+.slider .slider-text p {
+  font-size: 16px;
+}
